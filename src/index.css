@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base styles ── */
+html, body {
+  @apply bg-slate-950 text-white;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { @apply bg-slate-700 rounded-full; }
+
+/* Remove horizontal overflow */
+* { box-sizing: border-box; }
+body { overflow-x: hidden; }
