@@ -76,3 +76,5 @@ The dashboard works in two modes:
 - Multi-unit / multi-zone monitoring
 - Export historical data (CSV)
 - Push/email notifications on alert
+
+Built as part of an IDPBL (Interdisciplinary Project Based Learning) project in second semester, as a group project.
